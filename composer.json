@@ -1,0 +1,32 @@
+{
+    "name": "supbey/packagetest",
+    "description": "Package Test for the Laravel.",
+    "keywords": ["supbey", "packagetest", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "supbey",
+            "email": "supbey@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Supbey\\Packagetest\\": "src/"
+        }      
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Supbey\\Packagetest\\": "src/"
+        }
+    },        
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Supbey\\Packagetest\\PackagetestServiceProvider"
+            ],
+            "aliases": {
+                "Packagetest": "Supbey\\Packagetest\\Facades\\Packagetest"
+            }            
+        }
+    }
+}
