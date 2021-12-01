@@ -1,9 +1,5 @@
 <?php
-
 namespace Supbey\Packagetest;
-
-
-
 class PackagetestService
 {
     public function do() {
